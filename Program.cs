@@ -27,7 +27,10 @@ namespace Lab4
             Console.WriteLine("Continue? (y/n)");
             string response = Console.ReadLine();
             if (response.ToLower() == "y" || response.ToLower() == "yes")
+            {
+                Console.Clear();
                 Main(args);
+            }
             else
                 Console.WriteLine("Goodbye!");
         }
